@@ -17,7 +17,6 @@ NA
 
 Open index.html in browser.
 Different calibration methods to attempt to increase the accuracy of the eye tracker.
-A lot of debugging during development of code.
 
 Start
 ![](EyeTacToeDemo.PNG) 
