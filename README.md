@@ -39,4 +39,4 @@ For the versions available, see the [tags on this repository](https://webgazer.c
 
 ## Acknowledgments
 
-* WebGazer.js (https://webgazer.cs.brown.edu/)
+* [WebGazer.js](https://webgazer.cs.brown.edu/)
