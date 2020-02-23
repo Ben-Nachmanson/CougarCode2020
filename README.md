@@ -41,3 +41,5 @@ For the versions available, see the [tags on this repository](https://webgazer.c
 ## Acknowledgments
 
 * [WebGazer.js](https://webgazer.cs.brown.edu/)
+
+Alexandra Papoutsaki, Patsorn Sangkloy, James Laskey, Nediyana Daskalova, Jeff Huang, and James Hays. Webgazer: Scalable webcam eye tracking using user interactions. In Proceedings of the 25th International Joint Conference on Artificial Intelligence (IJCAI), pages 3839--3845. AAAI, 2016.
