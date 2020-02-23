@@ -17,6 +17,10 @@ NA
 
 Open index.html in browser.
 Different calibration methods to attempt to increase the accuracy of the eye tracker.
+  Tracker calibrated through mouse movement and mouse clicks
+Click a few times on the corners of the screen and follow the cursor with your eyes to calibrate the tracker
+After calibration, open the browser dev console to run 'webgazer.removeMouseEventListeners()'
+Close the terminal and use your eyes to control the game. Press any button on the keyboard to mark the box. The game will alternate between X and O turns. People can switch off but you can also play against yourself.
 
 Start
 ![](EyeTacToeDemo.PNG) 
