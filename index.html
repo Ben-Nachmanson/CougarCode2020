@@ -17,23 +17,25 @@
     <h2>X's Turn</h2> 
 
     <script>
-        // var xprediction;
-        // var yprediction;
+        var xprediction;
+        var yprediction;
         webgazer.setGazeListener(function(data, elapsedTime) {
             if (data == null) {
                 return;
             }
-            var xprediction = data.x; 
-            var yprediction = data.y; 
+            xprediction = data.x; 
+            yprediction = data.y; 
             //console.log(xprediction + ", " + yprediction); 
         }).setRegression('ridge').setTracker('clmtrackr').begin().showPredictionPoints(true);
-        document.addEventListener("keypress",fakeClick() );
+        
+        document.addEventListener("keypress",fakeClick, true);
         function fakeClick(e) {
             console.log("key press");
             if (xprediction != null && yprediction != null) {
-            let elem = document.elementFromPoint(xprediction, yprediction);
+            document.elementFromPoint(xprediction, yprediction).click()
             }
         }
+        
         
     </script>
     <!-- <script>
