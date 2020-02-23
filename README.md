@@ -3,11 +3,11 @@ This is a project that was developed during Crimson Code 2020
 Tier 2 Judging Category
 ## Getting Started
 
-Everything is included in the github.
+Everything is included in the github. 
 
 ### Prerequisites
 
-js compiler
+js compiler. Web browser.
 
 ### Installing
 
@@ -15,6 +15,7 @@ NA
 
 ## Running the tests
 
+Open index.html in browser.
 Different calibration methods to attempt to increase the accuracy of the eye tracker.
 A lot of debugging during development of code.
 
