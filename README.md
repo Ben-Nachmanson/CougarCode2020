@@ -33,16 +33,10 @@ For the versions available, see the [tags on this repository](https://webgazer.c
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+*Christian Rouhana
+*Ben Nachmanson
+*Jeff Bailie
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+*WebGazer.js (cs.brown.edu)
