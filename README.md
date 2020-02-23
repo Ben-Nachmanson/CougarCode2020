@@ -33,10 +33,10 @@ For the versions available, see the [tags on this repository](https://webgazer.c
 
 ## Authors
 
-*Christian Rouhana
-*Ben Nachmanson
-*Jeff Bailie
+* Christian Rouhana
+* Ben Nachmanson
+* Jeff Bailie
 
 ## Acknowledgments
 
-*WebGazer.js (cs.brown.edu)
+* WebGazer.js (https://webgazer.cs.brown.edu/)
