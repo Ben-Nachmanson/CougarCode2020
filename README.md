@@ -18,7 +18,9 @@ NA
 Different calibration methods to attempt to increase the accuracy of the eye tracker.
 A lot of debugging during development of code.
 
+Start
 ![](EyeTacToeDemo.PNG)
+Game in play
 ![](EyeTacToeDemo2.PNG)
 
 
