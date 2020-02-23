@@ -63,15 +63,21 @@ function render() {
     messages.textContent = win === 'T' ? `That's a tie!` : win ? `${win} wins the game!` : `${turn}'s turn`;
     };
 
-webgazer.setGazeListener(function(data, elapsedTime) {
-if (data == null) {
- return;
-}
-    var xprediction = data.x; //these x coordinates are relative to the viewport
- var yprediction = data.y; //these y coordinates are relative to the viewport
-        console.log(elapsedTime); //elapsed time is based on time since begin was called
-    }).begin()
-//img
+// webgazer.setGazeListener(function(data, elapsedTime) {
+//     if (data == null) {
+//         return;
+//     }
+//     var xprediction = data.x; //these x coordinates are relative to the viewport
+//     var yprediction = data.y; //these y coordinates are relative to the viewport
+//     console.log(elapsedTime); //elapsed time is based on time since begin was called
+// }).begin()
+// //img
  
-
+// function fakeClick(x, y) {
+//     document.addEventListener("keypress",fakeClick() );
+            
+//     console.log("key press");
+//     let elem = document.elementFromPoint(x, y);
+            
+//     }
 init();

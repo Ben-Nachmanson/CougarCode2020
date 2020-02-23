@@ -16,6 +16,35 @@
     <h1>Eye-Tracking Tic-Tac-Toe<h1> 
     <h2>X's Turn</h2> 
 
+    <script>
+        // var xprediction;
+        // var yprediction;
+        webgazer.setGazeListener(function(data, elapsedTime) {
+            if (data == null) {
+                return;
+            }
+            var xprediction = data.x; 
+            var yprediction = data.y; 
+            //console.log(xprediction + ", " + yprediction); 
+        }).setRegression('ridge').setTracker('clmtrackr').begin().showPredictionPoints(true);
+        document.addEventListener("keypress",fakeClick() );
+        function fakeClick(e) {
+            console.log("key press");
+            if (xprediction != null && yprediction != null) {
+            let elem = document.elementFromPoint(xprediction, yprediction);
+            }
+        }
+        
+    </script>
+    <!-- <script>
+    const log = document.getElementById('log');
+    document.addEventListener('keypress', logKey);
+
+        function logkey(e) {
+            console.log('${e.code}');
+        }
+    </script> -->
+
     <div class="flex-container flex-column">
         <div class="flex-container flex-wrap" id="board">
         <div class="square"></div>
@@ -28,8 +57,6 @@
         <div class="square"></div>
         <div class="square"></div>
         </div>
-
-        
         <button id="reset-button">reset</button>
     </div>
 </body>
