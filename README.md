@@ -19,7 +19,8 @@ Different calibration methods to attempt to increase the accuracy of the eye tra
 A lot of debugging during development of code.
 
 Start
-![](EyeTacToeDemo.PNG)
+![](EyeTacToeDemo.PNG) 
+
 Game in play
 ![](EyeTacToeDemo2.PNG)
 
