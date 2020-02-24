@@ -9,10 +9,6 @@ Everything is included in the github.
 
 js compiler. Web browser.
 
-### Installing
-
-NA
-
 ## Running the tests
 
 Open index.html in browser.
